@@ -75,7 +75,7 @@ func newRouterConfig() (*RouterConfig, error) {
 	return &RouterConfig{
 		WorkerProcesses:          "auto",
 		MaxWorkerConnections:     "768",
-		TrafficStatusZoneSize:    "1m",
+		TrafficStatusZoneSize:    "10m",
 		DefaultTimeout:           "1300s",
 		ServerNameHashMaxSize:    "512",
 		ServerNameHashBucketSize: "64",
